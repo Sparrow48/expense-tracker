@@ -1,10 +1,12 @@
+import classes from "./ExpenseItem.module.css";
+
 function ExpenseItem() {
   return (
-    <div>
+    <div className={classes.ExpenseItem}>
       <div>Date</div>
-      <div>
+      <div className={classes.ExpenseItemDescription}>
         <h2>Title</h2>
-        <div>Amount</div>
+        <div className={classes.ExpenseItemPrice}>Amount</div>
       </div>
     </div>
   );
