@@ -1,9 +1,10 @@
 import classes from "./App.module.css";
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   return (
     <div className={classes.App}>
-      <h2>Hello</h2>
+      <ExpenseItem />
     </div>
   );
 }
