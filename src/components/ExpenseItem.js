@@ -1,15 +1,16 @@
 import classes from "./ExpenseItem.module.css";
 import ExpenseDate from "./ExpenseDate";
+import Card from "./Card";
 
 function ExpenseItem(props) {
   return (
-    <div className={classes.ExpenseItem}>
+    <Card className={classes.ExpenseItem}>
       <ExpenseDate date={props.date} />
       <div className={classes.ExpenseItemDescription}>
         <h2>{props.title}</h2>
         <div className={classes.ExpenseItemPrice}>{props.amount}</div>
       </div>
-    </div>
+    </Card>
   );
 }
 
