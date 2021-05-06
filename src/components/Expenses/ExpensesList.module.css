@@ -1,0 +1,18 @@
+.ExpensesList {
+  list-style: none;
+  padding: 0;
+}
+
+.ExpensesListFallback {
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto 200px;
+  margin-bottom: 25px;
+}
