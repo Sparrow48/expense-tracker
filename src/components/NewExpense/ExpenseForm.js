@@ -1,7 +1,7 @@
 import { useState } from "react";
 import classes from "./ExpenseForm.module.css";
 
-const ExpenseForm = () => {
+const ExpenseForm = props => {
   const [enteredTitle, setEnteredTitle] = useState("");
   const [enteredAmount, setEnteredAmount] = useState("");
   const [enteredDate, setEnteredDate] = useState("");
@@ -57,12 +57,12 @@ const ExpenseForm = () => {
   const submitHandler = event => {
     event.preventDefault();
 
-    const expenses = {
+    const expenseData = {
       title: enteredTitle,
       amount: enteredAmount,
       date: new Date(enteredDate),
     };
-    console.log(expenses);
+    props.onSaveExpenseData(expenseData);
     setEnteredTitle("");
     setEnteredAmount("");
     setEnteredDate("");
