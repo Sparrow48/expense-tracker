@@ -1,3 +1,14 @@
+# Live Demo [Expense Tracker](https://test-6d415.web.app/)
+
+This web app is now pretty simple. You will be able to add new expenses but if you reload the app, you will not be able access your added data . Don't worry, I will add authentication and database in this web app very soon. And more features will be added very soon.
+
+## Features I will add in real soon:
+
+- Authentication
+- Delete Expense
+- Edit Expense
+- Database
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
