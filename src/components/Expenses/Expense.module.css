@@ -5,3 +5,17 @@
   width: 50rem;
   max-width: 95%;
 }
+@media (max-width: 500px) and (min-height: 401px) {
+  .Expenses {
+    padding: 1rem;
+    background-color: rgb(31, 31, 31);
+    margin: 0;
+    width: 100%;
+    max-width: auto;
+  }
+  .Expenses h2 {
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 100%;
+  }
+}

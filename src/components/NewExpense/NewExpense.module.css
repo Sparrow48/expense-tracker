@@ -36,3 +36,27 @@
 .NewExpense button.alternative:active {
   background-color: #ddb3f8;
 }
+
+@media (max-width: 500px) and (min-height: 401px) {
+  .NewExpense {
+    color: white;
+    background-color: #a892ee;
+    padding: 1rem;
+    margin: 2rem 0;
+    width: 100%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .NewExpense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+}
